@@ -49,8 +49,8 @@ class Dog
     # return a new instance of the Student class
     sql = <<-SQL
       SELECT *
-      FROM students
-      WHERE name = ?
+      FROM dogs
+      WHERE id = ?
       LIMIT 1
     SQL
 
