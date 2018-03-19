@@ -44,5 +44,5 @@ class Dog
     student
   end
 
-
+  
 end
