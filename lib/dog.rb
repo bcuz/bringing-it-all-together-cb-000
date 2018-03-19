@@ -96,8 +96,8 @@ end
   end
 
   def update
-   sql = "UPDATE dogs SET name = ?, grade = ? WHERE id = ?"
+   sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
   #  can run through the flow of this
-    DB[:conn].execute(sql,  self.id, self.name, self.grade)
+    DB[:conn].execute(sql,  self.id, self.name, self.breed)
  end
 end
