@@ -39,7 +39,7 @@ class Dog
     # not saving in a db here.
   end
 
-  def self.create()
+  def self.create(name: , breed:)
 
   end
 end
