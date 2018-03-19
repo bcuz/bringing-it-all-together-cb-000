@@ -75,7 +75,7 @@ end
       song_data = song[0]
       song = self.new(song_data[0], song_data[1], song_data[2])
     else
-      song = self.create(name: name, album: album)
+      song = self.create(name: name, breed: breed)
     end
     song
   end
