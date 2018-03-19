@@ -34,6 +34,6 @@ class Dog
 
     DB[:conn].execute(sql, self.name, self.breed)
 
-    # 
+    # not saving in a db here.
   end
 end
