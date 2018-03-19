@@ -38,4 +38,8 @@ class Dog
     self
     # not saving in a db here.
   end
+
+  def self.create
+
+  end
 end
