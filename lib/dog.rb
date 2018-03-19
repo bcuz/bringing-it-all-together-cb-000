@@ -47,7 +47,7 @@ class Dog
   def self.new_from_db(row)
   #  p row
  # create a new Student object given a row from the database
- new_student = self.new(row[0], row[1], row[2])  # self.new is the same as running Song.new
+ new_student = self.new(id: row[0], name: row[1], breed: row[2])  # self.new is the same as running Song.new
  # new_student.id = row[0]
  # new_student.name =  row[1]
  # new_student.grade = row[2]
