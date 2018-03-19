@@ -85,7 +85,7 @@ end
     # return a new instance of the Student class
     sql = <<-SQL
       SELECT *
-      FROM students
+      FROM dogs
       WHERE name = ?
       LIMIT 1
     SQL
